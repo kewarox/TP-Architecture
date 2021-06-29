@@ -1,0 +1,14 @@
+1. Lisez leman mpicc, que deviennent les arguments quand on exécute la commande suivante ?
+	mpicc -pedantic -Wall -Wextra -o hello hello.c
+
+2 Reprrenez le Hello  World du cours. Lancez la commande précédente pour compiler votreprogramme. (Corrigez les erreurs et warnings s’il y en a.)
+
+3 Lancez votre programme avec mpirun. 
+	Que se passe-t-il si vous rajoutez l’option -n 2 à mpirun ?
+4  Et que se passe-t-il avec l’option--use-hwthread-cpus?
+
+5  Que se passe-t-il si vous lancez votre programme./hellosans passer parmpirun?
+
+6. Enlevez l’appel àMPI_Finalize, recompilez et relancer avecmpirun. Que se passe-t-il ?
+
+7. Relancez ce programme tronqué sansmpirun. Que se passe-t-il ?
